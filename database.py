@@ -10,8 +10,7 @@ mydb = mysql.connector.connect(
     database="club_members"
 )
 c = mydb.cursor()
-
-
+# dhfdjahdhfaohfda hjfhjahkjh jfhajh
 def add_data(customer_fname,customer_lname,customer_id,customer_age,customer_addr,customer_membershiplan,customer_phone,customer_sex,customer_club):
     if customer_fname!="" and customer_addr!="" and customer_age!="" and customer_lname!=0 and customer_id!=0 and customer_phone!=0 :
         c.execute('INSERT INTO customer_details VALUES (%s,%s,%s,'
